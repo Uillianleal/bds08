@@ -1,0 +1,39 @@
+.filter-container {
+  padding: 40px 10px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.filter-select-container {
+    width: 250px;
+}
+
+.store-filter-select__indicator-separator {
+  display: none;
+}
+
+.store-filter-select__single-value {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+  color: #8d8d8d !important;
+  height: 50px !important;
+}
+
+@media (min-width: 576px) {
+  .filter-select-container {
+    width: 270px;
+    margin-left: 45px;
+}
+.filter-container {
+  justify-content: flex-start;
+}
+}
+
+
+
+

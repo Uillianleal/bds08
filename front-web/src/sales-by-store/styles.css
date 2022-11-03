@@ -1,0 +1,34 @@
+.sales-by-gender-container {
+  margin-top: 40px;
+
+}
+
+.sales-by-gender-quantity-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.sales-by-gender-quantity {
+  font-weight: bold;
+  color: var(--blue-color);
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.sales-by-gender-quantity-label {
+  font-size: 18px;
+  color: #8d8d8d;
+}
+
+@media (min-width: 576px) {
+  .sales-by-gender-quantity-container {
+    margin-right: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sales-by-gender-quantity-container {
+    margin-right: 340px;
+  }
+}
